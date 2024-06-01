@@ -1,0 +1,30 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+
+  "git.inputValidationSubjectLength": 100,
+  "git.inputValidationLength": 150,
+
+  "prettier.quoteProps": "consistent",
+  "prettier.configPath": ".prettierrc.js",
+  "prettier.ignorePath": ".prettierignore",
+  "prettier.enable": true,
+
+  "eslint.format.enable": false,
+
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "javascript.validate.enable": false,
+  "git.enableCommitSigning": true,
+  "files.insertFinalNewline": true
+}

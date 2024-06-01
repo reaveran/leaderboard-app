@@ -1,0 +1,8 @@
+ios
+android
+node_modules
+*.example
+
+babel.config.js
+react-native.config.js
+__tests__

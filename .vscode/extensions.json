@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "kamikillerto.vscode-colorize",
+    "firsttris.vscode-jest-runner",
+    "codeandstuff.package-json-upgrade",
+    "stateful.runme"
+  ]
+}
