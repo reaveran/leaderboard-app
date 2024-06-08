@@ -24,6 +24,7 @@ module.exports = {
     "react/no-unescaped-entities": "off",
     "react/prop-types": "off",
     "promise/always-return": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
     "react-native/no-raw-text": ["off", { skip: ["Link", "Text.Link", "Text.Text", "Text"] }],
     "simple-import-sort/imports": [
       "error",
@@ -34,14 +35,14 @@ module.exports = {
           // Internal modules
           [
             "^@components",
-            "^@store",
             "^@config",
             "^@pages",
-            "^@api",
             "^@assets",
             "^@utils",
             "^@navigation",
             "^@styles",
+            "^@store",
+            "^@hooks",
           ],
           // Relative imports
           ["^\\."],

@@ -2,6 +2,7 @@ declare namespace Navigation {
   // Define the all screen here
   type ScreenParams = {
     HomeScreen: undefined;
+    UserDetailsScreen: { user: User };
   };
 
   type Screen<Name extends keyof ScreenParams, Props = Record<string, unknown> | Record<string, never> | undefined> = (
