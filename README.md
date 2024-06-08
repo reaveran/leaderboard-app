@@ -1,8 +1,21 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+
+Make sure the version
+
+
+```bash
+node >=18
+jdk 17
+```
 
 ## Step 1: Start the Metro Server
 
@@ -67,6 +80,8 @@ You've successfully run and modified your React Native App. :partying_face:
 # Troubleshooting
 
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+This project is using babel for the alias, so make sure to reset the cache if there is error for cannot find module with alias name 
 
 # Learn More
 
